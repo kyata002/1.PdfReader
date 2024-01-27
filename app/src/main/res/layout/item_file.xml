@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/bg_item"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <FrameLayout
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:background="@android:color/transparent">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_item_file"
+                tools:ignore="ContentDescription" />
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_toStartOf="@+id/iv_favourite"
+            android:layout_toEndOf="@+id/card_view">
+
+            <TextView
+
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:singleLine="true"
+                android:text="@string/any_files_you_have_recently_worked_with_will_appear_here"
+                android:textColor="#404040"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="start"
+                android:fontFamily="@font/poppins_regular"
+                android:maxWidth="@dimen/_120sdp"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="#818181"
+                android:textSize="@dimen/_9sdp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_path">
+
+                <ProgressBar
+
+                    android:id="@+id/progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:max="100"
+                    android:progress="50" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_toRightOf="@+id/tv_path"
+                    android:text="@string/complete"
+                    android:textColor="#1AA3DD"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/iv_more"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:src="@drawable/ic_favourite_reading" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_more" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBlackWhite" />
+
+    </RelativeLayout>
+</layout>

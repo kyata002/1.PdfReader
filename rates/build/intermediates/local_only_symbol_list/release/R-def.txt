@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+attr? gnt_template_type
+drawable bg_edit_feedback
+drawable bg_submit
+drawable btn_scan
+drawable ic_heart_blue
+drawable ic_star_active_blue
+drawable ic_star_inactive_blue
+font roboto_light
+font roboto_medium
+font roboto_regular
+id edt_content
+id header
+id ln_feedback
+id ln_later
+id rating
+id tv_submit
+layout dialog_rate_blue
+styleable TemplateView gnt_template_type

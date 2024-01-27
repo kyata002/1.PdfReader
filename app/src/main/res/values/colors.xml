@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimaryDark">#F43636</color>
+    <color name="colorAccent">#F43B2E</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorPDFViewBg">#ffe0e0e0</color>
+    <color name="colorDarkerGray">#ff616161</color>
+    <color name="colorToolbar">#FF0000</color>
+
+
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorWhiteBlack">#000</color>
+    <color name="colorBlackWhite">#FFF</color>
+    <color name="colorItemLanguage">#000</color>
+    <color name="color_toolbar">#E53136</color>
+
+
+</resources>

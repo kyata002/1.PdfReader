@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#32E0C4</color>
+    <color name="colorAds">#068abf</color>
+    <color name="colorGrayAds">#fff8f8f8</color>
+    <color name="colorPrimary">#32E0C4</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorindicator">#068abf</color>
+    <color name="gntAdGreen">#3A6728</color>
+    <color name="gntBlack">#000000</color>
+    <color name="gntBlue">#4285f4</color>
+    <color name="gntGray">#808080</color>
+    <color name="gntGreen">#00FF00</color>
+    <color name="gntOutline">#E0E0E0</color>
+    <color name="gntRed">#FF0000</color>
+    <color name="gntTestBackgroundColor">#00F4F4F4</color>
+    <color name="gntTestBackgroundColor2">#00A3A3A3</color>
+    <color name="gntWhite">#FFFFFF</color>
+    <color name="lightTransparent">#16000000</color>
+    <color name="stockeCard">#5E58595A</color>
+    <color name="textColor">#ff666666</color>
+    <color name="whiteBlur">#bf9c9c9c</color>
+    <dimen name="height_native_ads">280dip</dimen>
+    <string name="_100_ad_free">100% Ad Free</string>
+    <string name="buy_now">buy now</string>
+    <string name="enjoy_an_ad_free_exprience">Enjoy an ad-free exprience</string>
+    <string name="pl_cancel">Cancel</string>
+    <string name="pl_grant_permission">Grant permission</string>
+    <string name="pl_grant_permission_desc">We need the Storage Permission to access your file. Please click Go Settings bellow and active Storage under Storage permission</string>
+    <string name="remove_ads">Remove ADS</string>
+    <string name="why_you_see_ads">Why You See Ads?</string>
+    <style name="AdsAppTheme" parent="Theme.AppCompat.Light"/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="AppTheme.Ads" parent="@style/AdsAppTheme">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/ads_icon</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">15.0px</item>
+        <item name="android:minHeight">15.0px</item>
+        <item name="android:text">Ad</item>
+    </style>
+    <style name="Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:screenOrientation">unspecified</item>
+    </style>
+</resources>

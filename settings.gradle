@@ -1,0 +1,6 @@
+//include ':android-pdf-viewer'
+include ':ads'
+include ':app'
+include ':permission-library'
+include ':rates'
+rootProject.name = "AndPdfReaderV1"

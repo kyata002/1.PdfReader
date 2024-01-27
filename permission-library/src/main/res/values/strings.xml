@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pl_all_file_access_permission">Need your permission to work</string>
+    <string name="pl_access_all_file">Permission</string>
+    <string name="pl_permission_desc">The app needs to use this permission to be able to work</string>
+    <string name="pl_allow_permission">Allow permission</string>
+    <string name="pl_exit_app">Exit app</string>
+    <string name="pl_grant_permission">Grant permission</string>
+    <string name="pl_grant_permission_desc">We need the Storage Permission to access your file. Please click Go Settings bellow and active Storage under Storage permission</string>
+    <string name="pl_cancel">Cancel</string>
+</resources>

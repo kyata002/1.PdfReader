@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryColor" format="color" />
+    <attr name="frgBackColor" format="color"/>
+    <attr name="floatingBtnColor" format="color"/>
+    <attr name="bottomBarColor" format="color"/>
+    <attr name="cellBackColor" format="color"/>
+    <attr name="cellTextTitleColor" format="color"/>
+    <attr name="cellTextSubColor" format="color"/>
+    <attr name="dialogOkColor" format="color"/>
+    <attr name="dialogCancelColor" format="color"/>
+    <attr name="dialogDelCancel" format="color"/>
+    <attr name="browseBackColor" format="color"/>
+</resources>

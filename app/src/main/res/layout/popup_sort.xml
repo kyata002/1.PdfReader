@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llSortChangePopup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/rd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:button="@drawable/button_check"
+            android:layoutDirection="rtl"
+            android:text="@string/sort_by_a_z"
+            android:textSize="@dimen/_12sdp" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/button_check"
+            android:layoutDirection="rtl"
+            android:text="@string/sort_by_z_a"
+            android:textSize="@dimen/_12sdp"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:button="@drawable/button_check"
+            android:textSize="@dimen/_12sdp"
+            android:layoutDirection="rtl"
+            android:text="@string/sort_by_size"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/rd4"
+            android:textSize="@dimen/_12sdp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/button_check"
+            android:layoutDirection="rtl"
+            android:text="@string/sort_by_date"
+            android:textAlignment="textStart" />
+    </RadioGroup>
+
+</LinearLayout>

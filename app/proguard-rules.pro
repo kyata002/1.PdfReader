@@ -228,9 +228,9 @@
 -keepclassmembers class ** {
     @org.greenrobot.eventbus.Subscribe <methods>;
 }
--keep class com.pdfreaderdreamw.pdfreader.db.**{*;}
--keep class com.pdfreaderdreamw.pdfreader.dao.**{*;}
--keep class com.pdfreaderdreamw.pdfreader.model.**{*;}
+-keep class com.kyata.pdfreader.db.**{*;}
+-keep class com.kyata.pdfreader.dao.**{*;}
+-keep class com.kyata.pdfreader.model.**{*;}
 -keep class com.wxiwei.office.fc.**{*;}
 -keep class com.shockwave.**{*;}
 -keep class com.itextpdf.**{*;}

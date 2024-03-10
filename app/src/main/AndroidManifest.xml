@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pdfreaderdreamw.pdfreader">
+    package="com.kyata.pdfreader">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -17,7 +17,7 @@
         tools:ignore="ScopedStorage" />
 
     <application
-        android:name=".App"
+        android:name="com.kyata.pdfreader.App"
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
         tools:replace="allowBackup">
 
         <activity
-            android:name=".view.activity.SplashActivity"
+            android:name="com.kyata.pdfreader.view.activity.SplashActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -78,20 +78,20 @@
         </activity>
 
         <activity
-            android:name=".view.activity.MainActivity"
+            android:name="com.kyata.pdfreader.view.activity.MainActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".view.activity.PdfReaderActivity"
+            android:name="com.kyata.pdfreader.view.activity.PdfReaderActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.activity.BrowseActivity"
+            android:name="com.kyata.pdfreader.view.activity.BrowseActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.activity.PickPhotoActivity"
+            android:name="com.kyata.pdfreader.view.activity.PickPhotoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.activity.LanguageActivity"
+            android:name="com.kyata.pdfreader.view.activity.LanguageActivity"
             android:screenOrientation="portrait" />
 
         <!--        <activity-->
@@ -102,27 +102,27 @@
         <!--        </activity>-->
 
         <activity
-            android:name=".view.dialog.InfoDialog"
+            android:name="com.kyata.pdfreader.view.dialog.InfoDialog"
             android:theme="@style/Transparent" />
         <activity
-            android:name=".view.dialog.DeleteDialog"
+            android:name="com.kyata.pdfreader.view.dialog.DeleteDialog"
             android:theme="@style/Transparent" />
         <activity
-            android:name=".view.dialog.RenameDialog"
+            android:name="com.kyata.pdfreader.view.dialog.RenameDialog"
             android:theme="@style/Transparent"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".view.fragment.ItemSheetActivity"
+            android:name="com.kyata.pdfreader.view.fragment.ItemSheetActivity"
             android:theme="@style/Transparent" />
         <activity
-            android:name=".view.fragment.OptionSheetActivity"
+            android:name="com.kyata.pdfreader.view.fragment.OptionSheetActivity"
             android:theme="@style/Transparent" />
         <activity
-            android:name=".view.dialog.JumpDialog"
+            android:name="com.kyata.pdfreader.view.dialog.JumpDialog"
             android:theme="@style/Transparent"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".view.activity.DocReaderActivity"
+            android:name="com.kyata.pdfreader.view.activity.DocReaderActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -134,7 +134,7 @@
             android:resource="@array/preloaded_fonts" />
 
         <service
-            android:name=".services.MyFirebaseMessagingService"
+            android:name="com.kyata.pdfreader.services.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

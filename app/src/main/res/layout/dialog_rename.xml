@@ -54,7 +54,7 @@
                 android:backgroundTint="#F4FCFA">
 
 
-                <com.pdfreaderdreamw.pdfreader.view.widget.CustomRenameEditText
+                <com.kyata.pdfreader.view.widget.CustomRenameEditText
                     android:id="@+id/edt_name"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -70,7 +70,7 @@
                     android:textColorHint="#A5A5A5"
                     android:textSize="@dimen/_12sdp">
                     <requestFocus />
-                </com.pdfreaderdreamw.pdfreader.view.widget.CustomRenameEditText>
+                </com.kyata.pdfreader.view.widget.CustomRenameEditText>
 
             </LinearLayout>
 

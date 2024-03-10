@@ -38,7 +38,7 @@ public class PurchaseManager {
     private List<SkuDetails> skuDetailsListIAP = new ArrayList<>();
     private List<SkuDetails> skuDetailsListSUB = new ArrayList<>();
     private boolean isPurchased;
-    private AcknowledgePurchaseResponseListener acknowledgePurchaseResponseListener = new AcknowledgePurchaseResponseListener() {
+    private final AcknowledgePurchaseResponseListener acknowledgePurchaseResponseListener = new AcknowledgePurchaseResponseListener() {
         @Override
         public void onAcknowledgePurchaseResponse(@NonNull BillingResult billingResult) {
             callback.purchaseSucess();

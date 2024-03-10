@@ -54,7 +54,7 @@
                 android:backgroundTint="#F4FCFA">
 
 
-                <com.pdfreaderdreamw.pdfreader.view.widget.CustomEditText
+                <com.kyata.pdfreader.view.widget.CustomEditText
                     android:id="@+id/edt_page"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

@@ -125,11 +125,11 @@
                 android:background="?attr/selectableItemBackground">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center"
                     android:layout_marginStart="@dimen/_16sdp"
-                    android:src="@drawable/ic_language" />
+                    android:src="@drawable/ic_clarity_language_line" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -208,11 +208,11 @@
                 android:background="?attr/selectableItemBackground">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center"
                     android:layout_marginStart="@dimen/_16sdp"
-                    android:src="@drawable/ic_tip_reading" />
+                    android:src="@drawable/ic_outline_tips" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -243,11 +243,11 @@
                 android:background="?attr/selectableItemBackground">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center"
                     android:layout_marginStart="@dimen/_16sdp"
-                    android:src="@drawable/ic_common_issuse" />
+                    android:src="@drawable/ic_label_important" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -278,8 +278,8 @@
                 android:background="?attr/selectableItemBackground">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center"
                     android:layout_marginStart="@dimen/_16sdp"
                     android:src="@drawable/ic_feedback" />
@@ -314,11 +314,11 @@
                 android:background="?attr/selectableItemBackground">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center"
                     android:layout_marginStart="@dimen/_16sdp"
-                    android:src="@drawable/ic_privacy_policy" />
+                    android:src="@drawable/ic_policy" />
 
                 <TextView
                     android:layout_width="0dp"

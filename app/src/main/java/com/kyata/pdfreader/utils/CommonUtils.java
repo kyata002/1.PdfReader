@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 public class CommonUtils {
-    private static final String POLICY_URL = "https://firebasestorage.googleapis.com/v0/b/compass-app-df4f4.appspot.com/o/Privacy_Policy_PDFReader.html?alt=media&token=352a1bcf-cb07-4ec9-84b6-17af960c1454";
+    private static final String POLICY_URL = "https://doc-hosting.flycricket.io/pdf-reader-privacy-policy/24f36dc5-d196-4b07-8dd8-3b19710c4144/privacy";
     public static final String ISSUES_URL = "https://sites.google.com/view/common-is/home";
     public static final String TIP_URL = "https://sites.google.com/view/readfaster/home";
     private static CommonUtils instance;

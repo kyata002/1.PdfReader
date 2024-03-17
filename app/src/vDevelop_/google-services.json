@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "abc",
-    "project_id": "abc",
-    "storage_bucket": "abc"
+    "project_number": "184187358809",
+    "project_id": "pdfreader-2c3a7",
+    "storage_bucket": "pdfreader-2c3a7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "abc",
+        "mobilesdk_app_id": "1:184187358809:android:7960bc0cde4590ee60eb48",
         "android_client_info": {
-          "package_name": "com.example.develop.test"
+          "package_name": "com.kyata.pdfreader"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "abc",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "abc"
+          "current_key": "AIzaSyBiiXpr1PApZLiQEp4ewu_ZiQSPJy_GO3Q"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "abc",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

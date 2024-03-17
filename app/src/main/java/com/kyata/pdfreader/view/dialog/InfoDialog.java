@@ -6,7 +6,7 @@ import android.content.Intent;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.databinding.DialogInfoBinding;
-import com.kyata.pdfreader.model.ItemFile;
+import com.kyata.pdfreader.data.model.ItemFile;
 import com.kyata.pdfreader.utils.CommonUtils;
 import com.kyata.pdfreader.utils.FileUtils;
 

@@ -9,117 +9,121 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+
 import com.common.control.R;
 import com.ymb.ratingbar_lib.RatingBar;
+
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class DialogRateBinding implements ViewBinding {
-  @NonNull
-  private final RelativeLayout rootView;
+    @NonNull
+    private final RelativeLayout rootView;
 
-  @NonNull
-  public final EditText edtContent;
+    @NonNull
+    public final EditText edtContent;
 
-  @NonNull
-  public final ImageView header;
+    @NonNull
+    public final ImageView header;
 
-  @NonNull
-  public final LinearLayout lnFeedback;
+    @NonNull
+    public final LinearLayout lnFeedback;
 
-  @NonNull
-  public final LinearLayout lnLater;
+    @NonNull
+    public final LinearLayout lnLater;
 
-  @NonNull
-  public final RatingBar rating;
+    @NonNull
+    public final RatingBar rating;
 
-  @NonNull
-  public final TextView tvSubmit;
+    @NonNull
+    public final TextView tvSubmit;
 
-  private DialogRateBinding(@NonNull RelativeLayout rootView, @NonNull EditText edtContent,
-      @NonNull ImageView header, @NonNull LinearLayout lnFeedback, @NonNull LinearLayout lnLater,
-      @NonNull RatingBar rating, @NonNull TextView tvSubmit) {
-    this.rootView = rootView;
-    this.edtContent = edtContent;
-    this.header = header;
-    this.lnFeedback = lnFeedback;
-    this.lnLater = lnLater;
-    this.rating = rating;
-    this.tvSubmit = tvSubmit;
-  }
-
-  @Override
-  @NonNull
-  public RelativeLayout getRoot() {
-    return rootView;
-  }
-
-  @NonNull
-  public static DialogRateBinding inflate(@NonNull LayoutInflater inflater) {
-    return inflate(inflater, null, false);
-  }
-
-  @NonNull
-  public static DialogRateBinding inflate(@NonNull LayoutInflater inflater,
-      @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.dialog_rate, parent, false);
-    if (attachToParent) {
-      parent.addView(root);
+    private DialogRateBinding(@NonNull RelativeLayout rootView, @NonNull EditText edtContent,
+                              @NonNull ImageView header, @NonNull LinearLayout lnFeedback, @NonNull LinearLayout lnLater,
+                              @NonNull RatingBar rating, @NonNull TextView tvSubmit) {
+        this.rootView = rootView;
+        this.edtContent = edtContent;
+        this.header = header;
+        this.lnFeedback = lnFeedback;
+        this.lnLater = lnLater;
+        this.rating = rating;
+        this.tvSubmit = tvSubmit;
     }
-    return bind(root);
-  }
 
-  @NonNull
-  public static DialogRateBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.edt_content;
-      EditText edtContent = ViewBindings.findChildViewById(rootView, id);
-      if (edtContent == null) {
-        break missingId;
-      }
-
-      id = R.id.header;
-      ImageView header = ViewBindings.findChildViewById(rootView, id);
-      if (header == null) {
-        break missingId;
-      }
-
-      id = R.id.ln_feedback;
-      LinearLayout lnFeedback = ViewBindings.findChildViewById(rootView, id);
-      if (lnFeedback == null) {
-        break missingId;
-      }
-
-      id = R.id.ln_later;
-      LinearLayout lnLater = ViewBindings.findChildViewById(rootView, id);
-      if (lnLater == null) {
-        break missingId;
-      }
-
-      id = R.id.rating;
-      RatingBar rating = ViewBindings.findChildViewById(rootView, id);
-      if (rating == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_submit;
-      TextView tvSubmit = ViewBindings.findChildViewById(rootView, id);
-      if (tvSubmit == null) {
-        break missingId;
-      }
-
-      return new DialogRateBinding((RelativeLayout) rootView, edtContent, header, lnFeedback,
-          lnLater, rating, tvSubmit);
+    @Override
+    @NonNull
+    public RelativeLayout getRoot() {
+        return rootView;
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
-  }
+
+    @NonNull
+    public static DialogRateBinding inflate(@NonNull LayoutInflater inflater) {
+        return inflate(inflater, null, false);
+    }
+
+    @NonNull
+    public static DialogRateBinding inflate(@NonNull LayoutInflater inflater,
+                                            @Nullable ViewGroup parent, boolean attachToParent) {
+        View root = inflater.inflate(R.layout.dialog_rate, parent, false);
+        if (attachToParent) {
+            parent.addView(root);
+        }
+        return bind(root);
+    }
+
+    @NonNull
+    public static DialogRateBinding bind(@NonNull View rootView) {
+        // The body of this method is generated in a way you would not otherwise write.
+        // This is done to optimize the compiled bytecode for size and performance.
+        int id;
+        missingId:
+        {
+            id = R.id.edt_content;
+            EditText edtContent = ViewBindings.findChildViewById(rootView, id);
+            if (edtContent == null) {
+                break missingId;
+            }
+
+            id = R.id.header;
+            ImageView header = ViewBindings.findChildViewById(rootView, id);
+            if (header == null) {
+                break missingId;
+            }
+
+            id = R.id.ln_feedback;
+            LinearLayout lnFeedback = ViewBindings.findChildViewById(rootView, id);
+            if (lnFeedback == null) {
+                break missingId;
+            }
+
+            id = R.id.ln_later;
+            LinearLayout lnLater = ViewBindings.findChildViewById(rootView, id);
+            if (lnLater == null) {
+                break missingId;
+            }
+
+            id = R.id.rating;
+            RatingBar rating = ViewBindings.findChildViewById(rootView, id);
+            if (rating == null) {
+                break missingId;
+            }
+
+            id = R.id.tv_submit;
+            TextView tvSubmit = ViewBindings.findChildViewById(rootView, id);
+            if (tvSubmit == null) {
+                break missingId;
+            }
+
+            return new DialogRateBinding((RelativeLayout) rootView, edtContent, header, lnFeedback,
+                    lnLater, rating, tvSubmit);
+        }
+        String missingId = rootView.getResources().getResourceName(id);
+        throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+    }
 }

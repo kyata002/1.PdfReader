@@ -11,7 +11,7 @@ import com.kyata.pdfreader.App;
 import com.kyata.pdfreader.base.BaseAdapter;
 import com.kyata.pdfreader.base.BaseViewHolder;
 import com.kyata.pdfreader.databinding.ItemHistoryBinding;
-import com.kyata.pdfreader.model.SearchHistory;
+import com.kyata.pdfreader.data.model.SearchHistory;
 
 import java.util.ArrayList;
 import java.util.List;

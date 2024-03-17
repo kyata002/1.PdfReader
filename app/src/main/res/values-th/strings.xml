@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">โปรแกรมอ่าน PDF</string>-->
+    <!--    <string name="app_name">โปรแกรมอ่าน PDF</string>-->
     <string name="menu_all_file">เอกสารทั้งหมด</string>
     <string name="menu_recent_file">ไฟล์ล่าสุด</string>
     <string name="menu_favorite">ที่ชื่นชอบ</string>

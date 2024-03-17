@@ -6,7 +6,7 @@ import android.content.res.Resources;
 
 import com.kyata.pdfreader.App;
 import com.kyata.pdfreader.R;
-import com.kyata.pdfreader.model.Language;
+import com.kyata.pdfreader.data.model.Language;
 
 import java.util.ArrayList;
 import java.util.Arrays;

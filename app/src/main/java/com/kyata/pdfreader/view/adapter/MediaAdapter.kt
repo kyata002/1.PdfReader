@@ -10,7 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.kyata.pdfreader.R
-import com.kyata.pdfreader.model.Media
+import com.kyata.pdfreader.data.model.Media
 import com.kyata.pdfreader.utils.FileUtils
 
 

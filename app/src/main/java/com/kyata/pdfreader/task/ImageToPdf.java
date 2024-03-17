@@ -11,16 +11,18 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
+
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.kyata.pdfreader.R;
-import com.kyata.pdfreader.model.ItemFile;
+import com.kyata.pdfreader.data.model.ItemFile;
 import com.kyata.pdfreader.view.OnActionCallback;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.List;

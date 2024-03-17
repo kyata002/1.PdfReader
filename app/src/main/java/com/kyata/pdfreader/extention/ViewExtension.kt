@@ -29,13 +29,14 @@ fun Context.showKeyboard(view: View) {
     val imm = this.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
     imm.showSoftInput(view, InputMethodManager.SHOW_IMPLICIT)
 }
+
 //
 fun View.hide() {
-    this.visibility=View.GONE
+    this.visibility = View.GONE
 }
 
 fun View.show() {
-    this.visibility=View.VISIBLE
+    this.visibility = View.VISIBLE
 
 }
 

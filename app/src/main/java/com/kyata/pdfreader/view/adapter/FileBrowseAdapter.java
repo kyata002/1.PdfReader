@@ -14,7 +14,7 @@ import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseAdapter;
 import com.kyata.pdfreader.base.BaseViewHolder;
-import com.kyata.pdfreader.model.FileModel;
+import com.kyata.pdfreader.data.model.FileModel;
 
 import java.util.List;
 

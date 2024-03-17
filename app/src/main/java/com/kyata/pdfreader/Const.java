@@ -27,5 +27,5 @@ public class Const {
     public static final int REQUEST_OPEN_FILE = 1002;
     public static final String KEY_CLICK_FILE = "KEY_CLICK_FILE";
     public static final String KEY_CLICK_DIRECTORY = "KEY_CLICK_DIRECTORY";
-    public static final String BASE_PATH_2 = Environment.getExternalStorageDirectory() +"/"+Environment.DIRECTORY_DOCUMENTS+ "/PdfReader";
+    public static final String BASE_PATH_2 = Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DOCUMENTS + "/PdfReader";
 }

@@ -1,4 +1,4 @@
-package com.kyata.pdfreader.model;
+package com.kyata.pdfreader.data.model;
 
 import com.kyata.pdfreader.App;
 

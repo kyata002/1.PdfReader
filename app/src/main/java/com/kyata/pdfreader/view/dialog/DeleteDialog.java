@@ -40,7 +40,7 @@ public class DeleteDialog extends BaseActivity<DialogDeleteBinding> {
     protected void addEvent() {
         String path = getIntent().getStringExtra("data");
         File file = new File(path);
-        binding.tvTitle.setText(getString(R.string.are_you_sure_you_want_to_delete_s)+ " "+file.getName() +"?");
+        binding.tvTitle.setText(getString(R.string.are_you_sure_you_want_to_delete_s) + " " + file.getName() + "?");
         binding.container.setOnClickListener(v -> finish());
         binding.btCancel.setOnClickListener(v -> finish());
         binding.btDelete.setOnClickListener(v -> {

@@ -3,7 +3,7 @@
     <item
         android:id="@+id/bt_detail"
         android:icon="@drawable/ic_popup_detail"
-        
+
         android:title="@string/detail" />
     <item
         android:id="@+id/bt_rename"

@@ -6,7 +6,7 @@ import com.admob.control.AdsApplication;
 import com.admob.control.AppOpenManager;
 import com.google.gson.Gson;
 import com.helper.permission.PlPermissionDialog;
-import com.kyata.pdfreader.db.RoomDatabase;
+import com.kyata.pdfreader.data.db.RoomDatabase;
 import com.kyata.pdfreader.view.activity.SplashActivity;
 
 public class App extends AdsApplication {

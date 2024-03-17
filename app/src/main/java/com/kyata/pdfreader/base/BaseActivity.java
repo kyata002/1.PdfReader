@@ -20,8 +20,8 @@ import com.kyata.pdfreader.App;
 import com.kyata.pdfreader.BuildConfig;
 import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.StorageCommon;
-import com.kyata.pdfreader.model.ItemFile;
-import com.kyata.pdfreader.model.RecentFile;
+import com.kyata.pdfreader.data.model.ItemFile;
+import com.kyata.pdfreader.data.model.RecentFile;
 import com.kyata.pdfreader.view.OnActionCallback;
 import com.kyata.pdfreader.view.activity.PdfReaderActivity;
 
@@ -124,7 +124,6 @@ public abstract class BaseActivity<T extends ViewDataBinding> extends AppCompatA
         showInterFileAds();
         setUserProperty("CLICK_READ_PDF");
     }
-
 
 
     protected void showInterFileAds() {

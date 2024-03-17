@@ -8,8 +8,8 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 
 import com.kyata.pdfreader.App;
-import com.kyata.pdfreader.model.FavoriteFile;
-import com.kyata.pdfreader.model.RecentFile;
+import com.kyata.pdfreader.data.model.FavoriteFile;
+import com.kyata.pdfreader.data.model.RecentFile;
 import com.kyata.pdfreader.view.activity.MainActivity;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;

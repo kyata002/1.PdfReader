@@ -20,7 +20,7 @@ public class CustomRenameEditText extends androidx.appcompat.widget.AppCompatEdi
 
     public interface DrawableClickListener {
 
-        enum DrawablePosition { TOP, BOTTOM, LEFT, RIGHT }
+        enum DrawablePosition {TOP, BOTTOM, LEFT, RIGHT}
 
         void onClick(DrawablePosition target);
     }
@@ -86,7 +86,7 @@ public class CustomRenameEditText extends androidx.appcompat.widget.AppCompatEdi
                 bounds = drawableLeft.getBounds();
 
                 int x, y;
-                int extraTapArea = (int) (13 * getResources().getDisplayMetrics().density  + 0.5);
+                int extraTapArea = (int) (13 * getResources().getDisplayMetrics().density + 0.5);
 
                 x = actionX;
                 y = actionY;
@@ -145,7 +145,7 @@ public class CustomRenameEditText extends androidx.appcompat.widget.AppCompatEdi
                  * So to avoid this add the value previous added when x goes negative.
                  */
 
-                if(x <= 0){
+                if (x <= 0) {
                     x += extraTapArea;
                 }
 

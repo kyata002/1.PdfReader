@@ -35,7 +35,7 @@ import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.databinding.ActivityPdfViewerBinding;
-import com.kyata.pdfreader.model.FavoriteFile;
+import com.kyata.pdfreader.data.model.FavoriteFile;
 import com.kyata.pdfreader.utils.CommonUtils;
 import com.kyata.pdfreader.utils.SharePreferenceUtils;
 import com.kyata.pdfreader.view.OnActionCallback;
@@ -201,7 +201,7 @@ public class PdfReaderActivity extends BaseActivity<ActivityPdfViewerBinding> {
         if (!TextUtils.isEmpty(this.pdfFileLocation)) {
             File file = new File(pdfFileLocation);
             binding.tvTitle.setText(file.getName());
-            DefaultScrollHandle scroll=null;
+            DefaultScrollHandle scroll = null;
             if (z) {
                 scroll = null;
             }

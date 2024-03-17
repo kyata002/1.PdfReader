@@ -14,7 +14,7 @@ import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 
 import com.kyata.pdfreader.Const;
-import com.kyata.pdfreader.model.Category;
+import com.kyata.pdfreader.data.model.Category;
 import com.kyata.pdfreader.view.OnActionCallback;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
@@ -57,7 +57,6 @@ public class LoadPdfFile extends AsyncTask<Void, Void, Void> {
             int totalPage = getNumberPage(context, file) - 1;
             categoryList.get(ITEM_ALL_FILE).addFile(file, totalPage);
         }
-
 
 
         return null;

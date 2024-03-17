@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">Cititor PDF</string>-->
+    <!--    <string name="app_name">Cititor PDF</string>-->
     <string name="menu_all_file">Toate filele</string>
     <string name="menu_recent_file">Fișier recent</string>
     <string name="menu_favorite">Favorit</string>

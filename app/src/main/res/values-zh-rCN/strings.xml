@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">PDF閱讀器</string>-->
+    <!--    <string name="app_name">PDF閱讀器</string>-->
     <string name="menu_all_file">所有文件</string>
     <string name="menu_recent_file">最近的文件</string>
     <string name="menu_favorite">最喜歡的</string>

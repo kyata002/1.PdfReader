@@ -8,8 +8,8 @@ import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.databinding.FragmentSheetItemBinding;
-import com.kyata.pdfreader.model.FavoriteFile;
-import com.kyata.pdfreader.model.ItemFile;
+import com.kyata.pdfreader.data.model.FavoriteFile;
+import com.kyata.pdfreader.data.model.ItemFile;
 import com.kyata.pdfreader.view.OnActionCallback;
 
 import java.util.List;

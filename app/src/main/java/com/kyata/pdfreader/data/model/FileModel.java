@@ -1,9 +1,9 @@
-package com.kyata.pdfreader.model;
+package com.kyata.pdfreader.data.model;
 
 import java.io.Serializable;
 
 
-public class FileModel implements Serializable,Comparable<FileModel> {
+public class FileModel implements Serializable, Comparable<FileModel> {
 
     private String fileId;
     private String fileName;

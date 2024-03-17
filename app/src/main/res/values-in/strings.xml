@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">Pembaca PDF</string>-->
+    <!--    <string name="app_name">Pembaca PDF</string>-->
     <string name="menu_all_file">Semua data</string>
     <string name="menu_recent_file">File terbaru</string>
     <string name="menu_favorite">Favorit</string>

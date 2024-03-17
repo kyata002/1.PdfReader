@@ -1,11 +1,11 @@
-package com.kyata.pdfreader.dao;
+package com.kyata.pdfreader.data.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.kyata.pdfreader.model.SearchHistory;
+import com.kyata.pdfreader.data.model.SearchHistory;
 
 import java.util.List;
 

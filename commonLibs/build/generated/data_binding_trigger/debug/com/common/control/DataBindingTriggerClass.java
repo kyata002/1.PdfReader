@@ -1,4 +1,5 @@
 package com.common.control;
 
 @androidx.databinding.BindingBuildInfo
-public class DataBindingTriggerClass {}
+public class DataBindingTriggerClass {
+}

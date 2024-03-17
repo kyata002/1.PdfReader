@@ -26,9 +26,9 @@ import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.base.BaseAdapter;
 import com.kyata.pdfreader.base.BaseViewHolder;
 import com.kyata.pdfreader.databinding.ItemFileBinding;
-import com.kyata.pdfreader.model.FavoriteFile;
-import com.kyata.pdfreader.model.ItemFile;
-import com.kyata.pdfreader.model.RecentFile;
+import com.kyata.pdfreader.data.model.FavoriteFile;
+import com.kyata.pdfreader.data.model.ItemFile;
+import com.kyata.pdfreader.data.model.RecentFile;
 import com.kyata.pdfreader.utils.CommonUtils;
 import com.kyata.pdfreader.utils.FileUtils;
 import com.kyata.pdfreader.utils.SharePreferenceUtils;
@@ -403,7 +403,7 @@ public class ListFileAdapter extends BaseAdapter<ItemFile> {
             return;
         }
 
-        DeleteDialog.start(context, itemFile.getPath(),(key, data) -> {
+        DeleteDialog.start(context, itemFile.getPath(), (key, data) -> {
             File file = new File(itemFile.getPath());
             if (file.delete()) {
                 Toast.makeText(context, context.getString(R.string.deleted_file), Toast.LENGTH_SHORT).show();

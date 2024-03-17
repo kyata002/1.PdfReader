@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">PDF 리더</string>-->
+    <!--    <string name="app_name">PDF 리더</string>-->
     <string name="menu_all_file">모든 파일</string>
     <string name="menu_recent_file">최근 파일</string>
     <string name="menu_favorite">가장 좋아하는</string>

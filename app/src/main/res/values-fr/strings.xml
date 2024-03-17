@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name" >Lecteur PDF</string>-->
+    <!--    <string name="app_name" >Lecteur PDF</string>-->
     <string name="menu_all_file">Tous les fichiers</string>
     <string name="menu_recent_file">Fichier récent</string>
     <string name="menu_favorite">Favori</string>
@@ -59,7 +59,7 @@
     <string name="language">Langue</string>
     <string name="setting">Réglage</string>
     <string name="about">Sur</string>
-    <string name="dark_theme" >Thème sombre</string>
+    <string name="dark_theme">Thème sombre</string>
     <string name="horizontal">Horizontal</string>
     <string name="vertical">Verticale</string>
     <string name="jump">Saut</string>

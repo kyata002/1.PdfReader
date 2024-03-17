@@ -9,7 +9,7 @@ import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.databinding.ActivityLanguageBinding;
-import com.kyata.pdfreader.model.Language;
+import com.kyata.pdfreader.data.model.Language;
 import com.kyata.pdfreader.utils.LanguageUtils;
 import com.kyata.pdfreader.view.adapter.LanguageAdapter;
 

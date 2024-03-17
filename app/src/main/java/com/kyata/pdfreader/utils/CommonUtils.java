@@ -25,7 +25,7 @@ public class CommonUtils {
     private static final String FILE_SETTING = "setting.pref";
     private static final String TAG = CommonUtils.class.getName();
     public static final String KEY_LOAD_ANIM_END = "KEY_LOAD_ANIM";
-    private static final String EMAIL = "verifiedapps.help@gmail.com";
+    private static final String EMAIL = "kyatakaizou@gmail.com";
     private static final String SUBJECT = "Feedback for App PDF Reader";
     private static final String PUBLISH_NAME = "";
 

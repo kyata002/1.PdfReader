@@ -1,4 +1,4 @@
-package com.kyata.pdfreader.model;
+package com.kyata.pdfreader.data.model;
 
 public class Language {
 

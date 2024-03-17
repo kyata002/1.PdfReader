@@ -30,8 +30,8 @@
     <string name="pl_grant_permission_desc">We need the Storage Permission to access your file. Please click Go Settings bellow and active Storage under Storage permission</string>
     <string name="remove_ads">Remove ADS</string>
     <string name="why_you_see_ads">Why You See Ads?</string>
-    <style name="AdsAppTheme" parent="Theme.AppCompat.Light"/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="AdsAppTheme" parent="Theme.AppCompat.Light" />
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
     <style name="AppTheme.Ads" parent="@style/AdsAppTheme">
         <item name="android:textSize">11.0sp</item>
         <item name="android:textColor">#ffffff</item>

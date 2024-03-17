@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">Trình đọc PDF</string>-->
+    <!--    <string name="app_name">Trình đọc PDF</string>-->
     <string name="menu_all_file">Tất cả các tệp</string>
     <string name="menu_recent_file">Tập tin gần đây</string>
     <string name="menu_favorite">Yêu thích</string>

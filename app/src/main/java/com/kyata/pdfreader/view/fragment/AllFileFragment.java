@@ -13,7 +13,7 @@ import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseActivity;
 import com.kyata.pdfreader.base.BaseFragment;
 import com.kyata.pdfreader.databinding.FragmentAllfileBinding;
-import com.kyata.pdfreader.model.ItemFile;
+import com.kyata.pdfreader.data.model.ItemFile;
 import com.kyata.pdfreader.view.IFilter;
 import com.kyata.pdfreader.view.OnActionCallback;
 import com.kyata.pdfreader.view.activity.MainActivity;

@@ -6,82 +6,86 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+
 import com.common.control.R;
+
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class LayoutBannerControlBinding implements ViewBinding {
-  @NonNull
-  private final RelativeLayout rootView;
+    @NonNull
+    private final RelativeLayout rootView;
 
-  @NonNull
-  public final FrameLayout bannerContainer;
+    @NonNull
+    public final FrameLayout bannerContainer;
 
-  @NonNull
-  public final FrameLayout flShimemr;
+    @NonNull
+    public final FrameLayout flShimemr;
 
-  @NonNull
-  public final RelativeLayout llAds;
+    @NonNull
+    public final RelativeLayout llAds;
 
-  private LayoutBannerControlBinding(@NonNull RelativeLayout rootView,
-      @NonNull FrameLayout bannerContainer, @NonNull FrameLayout flShimemr,
-      @NonNull RelativeLayout llAds) {
-    this.rootView = rootView;
-    this.bannerContainer = bannerContainer;
-    this.flShimemr = flShimemr;
-    this.llAds = llAds;
-  }
-
-  @Override
-  @NonNull
-  public RelativeLayout getRoot() {
-    return rootView;
-  }
-
-  @NonNull
-  public static LayoutBannerControlBinding inflate(@NonNull LayoutInflater inflater) {
-    return inflate(inflater, null, false);
-  }
-
-  @NonNull
-  public static LayoutBannerControlBinding inflate(@NonNull LayoutInflater inflater,
-      @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.layout_banner_control, parent, false);
-    if (attachToParent) {
-      parent.addView(root);
+    private LayoutBannerControlBinding(@NonNull RelativeLayout rootView,
+                                       @NonNull FrameLayout bannerContainer, @NonNull FrameLayout flShimemr,
+                                       @NonNull RelativeLayout llAds) {
+        this.rootView = rootView;
+        this.bannerContainer = bannerContainer;
+        this.flShimemr = flShimemr;
+        this.llAds = llAds;
     }
-    return bind(root);
-  }
 
-  @NonNull
-  public static LayoutBannerControlBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.banner_container;
-      FrameLayout bannerContainer = ViewBindings.findChildViewById(rootView, id);
-      if (bannerContainer == null) {
-        break missingId;
-      }
-
-      id = R.id.fl_shimemr;
-      FrameLayout flShimemr = ViewBindings.findChildViewById(rootView, id);
-      if (flShimemr == null) {
-        break missingId;
-      }
-
-      RelativeLayout llAds = (RelativeLayout) rootView;
-
-      return new LayoutBannerControlBinding((RelativeLayout) rootView, bannerContainer, flShimemr,
-          llAds);
+    @Override
+    @NonNull
+    public RelativeLayout getRoot() {
+        return rootView;
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
-  }
+
+    @NonNull
+    public static LayoutBannerControlBinding inflate(@NonNull LayoutInflater inflater) {
+        return inflate(inflater, null, false);
+    }
+
+    @NonNull
+    public static LayoutBannerControlBinding inflate(@NonNull LayoutInflater inflater,
+                                                     @Nullable ViewGroup parent, boolean attachToParent) {
+        View root = inflater.inflate(R.layout.layout_banner_control, parent, false);
+        if (attachToParent) {
+            parent.addView(root);
+        }
+        return bind(root);
+    }
+
+    @NonNull
+    public static LayoutBannerControlBinding bind(@NonNull View rootView) {
+        // The body of this method is generated in a way you would not otherwise write.
+        // This is done to optimize the compiled bytecode for size and performance.
+        int id;
+        missingId:
+        {
+            id = R.id.banner_container;
+            FrameLayout bannerContainer = ViewBindings.findChildViewById(rootView, id);
+            if (bannerContainer == null) {
+                break missingId;
+            }
+
+            id = R.id.fl_shimemr;
+            FrameLayout flShimemr = ViewBindings.findChildViewById(rootView, id);
+            if (flShimemr == null) {
+                break missingId;
+            }
+
+            RelativeLayout llAds = (RelativeLayout) rootView;
+
+            return new LayoutBannerControlBinding((RelativeLayout) rootView, bannerContainer, flShimemr,
+                    llAds);
+        }
+        String missingId = rootView.getResources().getResourceName(id);
+        throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+    }
 }

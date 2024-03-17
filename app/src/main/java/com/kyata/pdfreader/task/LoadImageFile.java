@@ -18,9 +18,9 @@ public class LoadImageFile extends AsyncTask<Void, Void, Void> {
     private final Context context;
     private final OnActionCallback callback;
 
-    public LoadImageFile(Context context,OnActionCallback callback) {
+    public LoadImageFile(Context context, OnActionCallback callback) {
         this.callback = callback;
-        this.context=context;
+        this.context = context;
     }
 
     private final List<File> list = new ArrayList<>();
@@ -42,7 +42,7 @@ public class LoadImageFile extends AsyncTask<Void, Void, Void> {
         int columnData = cursor.getColumnIndexOrThrow(MediaStore.MediaColumns.DATA);
         while (cursor.moveToNext()) {
             String path = cursor.getString(columnData);
-            File file=new File(path);
+            File file = new File(path);
             if (!file.exists()) {
                 continue;
             }

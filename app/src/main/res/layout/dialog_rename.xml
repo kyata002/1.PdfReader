@@ -69,6 +69,7 @@
                     android:textColor="#000"
                     android:textColorHint="#A5A5A5"
                     android:textSize="@dimen/_12sdp">
+
                     <requestFocus />
                 </com.kyata.pdfreader.view.widget.CustomRenameEditText>
 

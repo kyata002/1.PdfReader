@@ -107,7 +107,8 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:fontFamily="@font/lexend_regular"          android:layout_height="wrap_content"
+                            android:fontFamily="@font/lexend_regular"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:text="@string/rename"
                             android:textColor="#404040" />
@@ -135,7 +136,8 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:fontFamily="@font/lexend_regular"  android:layout_height="wrap_content"
+                            android:fontFamily="@font/lexend_regular"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:text="@string/share"
@@ -168,7 +170,8 @@
                             android:src="@drawable/ic_delete" />
 
                         <TextView
-                            android:fontFamily="@font/lexend_regular"   android:layout_width="wrap_content"
+                            android:fontFamily="@font/lexend_regular"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:text="@string/delete"
@@ -196,7 +199,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/lexend_regular"  android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/lexend_regular"
+                            android:layout_marginTop="@dimen/_5sdp"
                             android:text="@string/favourite"
                             android:textColor="#404040" />
                     </androidx.appcompat.widget.LinearLayoutCompat>

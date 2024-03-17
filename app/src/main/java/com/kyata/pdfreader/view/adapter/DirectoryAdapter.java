@@ -13,7 +13,7 @@ import com.kyata.pdfreader.Const;
 import com.kyata.pdfreader.R;
 import com.kyata.pdfreader.base.BaseAdapter;
 import com.kyata.pdfreader.base.BaseViewHolder;
-import com.kyata.pdfreader.model.Directory;
+import com.kyata.pdfreader.data.model.Directory;
 
 import java.util.List;
 

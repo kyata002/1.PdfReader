@@ -25,7 +25,7 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
 import com.bumptech.glide.Glide;
 import com.kyata.pdfreader.R;
-import com.kyata.pdfreader.model.PDFPage;
+import com.kyata.pdfreader.data.model.PDFPage;
 
 import java.util.ArrayList;
 import java.util.Collections;

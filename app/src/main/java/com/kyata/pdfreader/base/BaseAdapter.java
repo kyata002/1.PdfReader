@@ -43,7 +43,7 @@ abstract public class BaseAdapter<T> extends RecyclerView.Adapter<RecyclerView.V
 
     @Override
     public int getItemCount() {
-        if (mList != null){
+        if (mList != null) {
             return mList.size();
         } else {
             return 0;

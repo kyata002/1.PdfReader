@@ -1,4 +1,4 @@
-package com.kyata.pdfreader.dao;
+package com.kyata.pdfreader.data.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
@@ -6,7 +6,7 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.kyata.pdfreader.model.FavoriteFile;
+import com.kyata.pdfreader.data.model.FavoriteFile;
 
 import java.util.List;
 

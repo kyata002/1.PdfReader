@@ -5,75 +5,79 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+
 import com.common.control.R;
+
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityPermissionStorageBinding implements ViewBinding {
-  @NonNull
-  private final ConstraintLayout rootView;
+    @NonNull
+    private final ConstraintLayout rootView;
 
-  @NonNull
-  public final TextView btDeny;
+    @NonNull
+    public final TextView btDeny;
 
-  @NonNull
-  public final TextView btGrant;
+    @NonNull
+    public final TextView btGrant;
 
-  private ActivityPermissionStorageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView btDeny, @NonNull TextView btGrant) {
-    this.rootView = rootView;
-    this.btDeny = btDeny;
-    this.btGrant = btGrant;
-  }
-
-  @Override
-  @NonNull
-  public ConstraintLayout getRoot() {
-    return rootView;
-  }
-
-  @NonNull
-  public static ActivityPermissionStorageBinding inflate(@NonNull LayoutInflater inflater) {
-    return inflate(inflater, null, false);
-  }
-
-  @NonNull
-  public static ActivityPermissionStorageBinding inflate(@NonNull LayoutInflater inflater,
-      @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.activity_permission_storage, parent, false);
-    if (attachToParent) {
-      parent.addView(root);
+    private ActivityPermissionStorageBinding(@NonNull ConstraintLayout rootView,
+                                             @NonNull TextView btDeny, @NonNull TextView btGrant) {
+        this.rootView = rootView;
+        this.btDeny = btDeny;
+        this.btGrant = btGrant;
     }
-    return bind(root);
-  }
 
-  @NonNull
-  public static ActivityPermissionStorageBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.bt_deny;
-      TextView btDeny = ViewBindings.findChildViewById(rootView, id);
-      if (btDeny == null) {
-        break missingId;
-      }
-
-      id = R.id.bt_grant;
-      TextView btGrant = ViewBindings.findChildViewById(rootView, id);
-      if (btGrant == null) {
-        break missingId;
-      }
-
-      return new ActivityPermissionStorageBinding((ConstraintLayout) rootView, btDeny, btGrant);
+    @Override
+    @NonNull
+    public ConstraintLayout getRoot() {
+        return rootView;
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
-  }
+
+    @NonNull
+    public static ActivityPermissionStorageBinding inflate(@NonNull LayoutInflater inflater) {
+        return inflate(inflater, null, false);
+    }
+
+    @NonNull
+    public static ActivityPermissionStorageBinding inflate(@NonNull LayoutInflater inflater,
+                                                           @Nullable ViewGroup parent, boolean attachToParent) {
+        View root = inflater.inflate(R.layout.activity_permission_storage, parent, false);
+        if (attachToParent) {
+            parent.addView(root);
+        }
+        return bind(root);
+    }
+
+    @NonNull
+    public static ActivityPermissionStorageBinding bind(@NonNull View rootView) {
+        // The body of this method is generated in a way you would not otherwise write.
+        // This is done to optimize the compiled bytecode for size and performance.
+        int id;
+        missingId:
+        {
+            id = R.id.bt_deny;
+            TextView btDeny = ViewBindings.findChildViewById(rootView, id);
+            if (btDeny == null) {
+                break missingId;
+            }
+
+            id = R.id.bt_grant;
+            TextView btGrant = ViewBindings.findChildViewById(rootView, id);
+            if (btGrant == null) {
+                break missingId;
+            }
+
+            return new ActivityPermissionStorageBinding((ConstraintLayout) rootView, btDeny, btGrant);
+        }
+        String missingId = rootView.getResources().getResourceName(id);
+        throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+    }
 }

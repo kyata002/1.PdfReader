@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">Читатель PDF</string>-->
+    <!--    <string name="app_name">Читатель PDF</string>-->
     <string name="menu_all_file">Все файлы</string>
     <string name="menu_recent_file">Недавний файл</string>
     <string name="menu_favorite">Любимый</string>

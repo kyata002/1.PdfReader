@@ -71,16 +71,16 @@ public class RateAppBlueDialog extends Dialog {
                 rd = new Runnable() {
                     @Override
                     public void run() {
-                            if (v1 < 4.0) {
-                                findViewById(R.id.ln_feedback).setVisibility(View.VISIBLE);
-                                findViewById(R.id.ln_later).setVisibility(View.GONE);
-                                return;
-                            }
-                            dismiss();
-                            callback.onRate();
+                        if (v1 < 4.0) {
+                            findViewById(R.id.ln_feedback).setVisibility(View.VISIBLE);
+                            findViewById(R.id.ln_later).setVisibility(View.GONE);
+                            return;
+                        }
+                        dismiss();
+                        callback.onRate();
                     }
                 };
-                handler.postDelayed(rd,200);
+                handler.postDelayed(rd, 200);
             }
         });
 

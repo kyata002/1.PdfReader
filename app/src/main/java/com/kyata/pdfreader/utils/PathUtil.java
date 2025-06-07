@@ -17,6 +17,7 @@ import android.webkit.MimeTypeMap;
 
 
 import com.kyata.pdfreader.App;
+import com.kyata.pdfreader.R;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -96,7 +97,8 @@ public class PathUtil {
                     return Environment.getExternalStorageDirectory() + "/" + split[1];
                 }
 
-                // TODO handle non-primary volumes
+                // handle non-primary volumes
+                return "/storage/" + type + "/" + split[1];
             }
             // DownloadsProvider
             else if (isDownloadsDocument(uri)) {
@@ -236,11 +238,13 @@ public class PathUtil {
 
 
     public static int getFileIcon(boolean isDir, String filePath) {
-        if (!TextUtils.isEmpty(filePath)) {
-            return getFileIcon(isDir, filePath);
-        } else {
-            return 0;
+        if (isDir) {
+            return R.drawable.ic_folder;
         }
+        if (!TextUtils.isEmpty(filePath) && filePath.toLowerCase().endsWith(".pdf")) {
+            return R.drawable.ic_item_pdf;
+        }
+        return R.drawable.ic_item_file;
     }
 
     private static boolean isCompareFiles(String path1, String path2) {

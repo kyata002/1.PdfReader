@@ -43,7 +43,8 @@ public class FileUtils {
                     return Environment.getExternalStorageDirectory() + "/" + split[1];
                 }
 
-                // TODO handle non-primary volumes
+                // handle non-primary volumes
+                return "/storage/" + type + "/" + split[1];
             }
             // DownloadsProvider
             else if (isDownloadsDocument(uri)) {
